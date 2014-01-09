@@ -1,4 +1,6 @@
 TutorialApp::Application.routes.draw do
+  get "test_pages/home"
+  get "test_pages/help"
   get "static_pages/home"
   get "static_pages/help"
   get "static_pages/about"
